@@ -1,13 +1,11 @@
 import torch
-print("GPU available:", torch.cuda.is_available())
-
 from sentence_transformers import SentenceTransformer, util
 import json
 from tqdm import tqdm
 import os
 
 # Load the high-performance semantic model
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "mps" if torch.backends.mps.is_available() else "cpu"
 print(f"Using device: {device}")
 model = SentenceTransformer("sentence-transformers/gtr-t5-large", device=device)
 
@@ -72,8 +70,8 @@ def filter_file(input_path, output_path, batch_size=128):
 years = list(range(2010, 2025)) # Generates years from 2010 to 2024
 
 # Base directory for input and output files
-base_input_dir = "/content/drive/MyDrive/deu_new_Leipzig_structured/structured_data/"
-base_output_dir = "/content/drive/MyDrive/deu_new_Leipzig_structured/filtered_data/"
+base_input_dir = "structured_data/"
+base_output_dir = "filtered_data/"
 
 # Loop through the years and process each file
 for year in years:
