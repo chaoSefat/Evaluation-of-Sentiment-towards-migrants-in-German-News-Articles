@@ -4,3 +4,4 @@ structured_data/
 output/
 corpus_processor.log
 .DS_Store
+.env
