@@ -111,8 +111,8 @@ def process_file(input_path, output_path, batch_size=10):
 
 
 if __name__ == "__main__":
-    #years = list(range(2011, 2025)) 
-    years = [2010]
+    years = list(range(2010, 2025)) 
+    #years = [2010]
     for year in years:
         file_name = f"deu_{year}"
         input_file = f"filtered_data/{file_name}.json"
