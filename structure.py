@@ -21,7 +21,7 @@ from urllib.parse import urlparse
 # =============================================================================
 
 # Language to process (e.g., 'deu' for German, 'eng' for English)
-LANGUAGE = 'deu'
+LANGUAGE = 'eng'
 
 # Years to process (list of integers)
 YEARS = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
@@ -33,7 +33,7 @@ LOG_LEVEL = 'INFO'
 DATA_DIR = 'data'
 
 # Output directory path
-OUTPUT_DIR = 'strctured_data'
+OUTPUT_DIR = 'structured_data'
 
 # =============================================================================
 
