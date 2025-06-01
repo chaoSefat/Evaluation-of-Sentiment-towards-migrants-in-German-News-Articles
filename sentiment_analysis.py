@@ -39,7 +39,8 @@ function_def = {
 # """
 
 ### Updated prompt that clearly defines the lables for better classification of sentiment towards refugees and asylum seekers:
-"""
+
+prompt = """
 You are a social scientist studying how refugees, asylum seekers, and immigrants are portrayed in media texts.
 
 Your task is to classify the **attitude or bias expressed *toward* these groups** in each sentence. Do not judge based on whether the situation is good or bad — instead, focus on how the groups are depicted.
