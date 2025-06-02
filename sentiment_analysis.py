@@ -111,10 +111,11 @@ def process_file(input_path, output_path, batch_size=10):
 
 
 if __name__ == "__main__":
-    years = list(range(2010, 2025)) 
-    #years = [2010]
+    #years = list(range(2010, 2025)) #available years for german data
+    years = [2010,2013,2014,2015,2016,2017,2018,2019,2020,2023,2024] #available years for english data
     for year in years:
-        file_name = f"deu_{year}"
+        #file_name = f"deu_{year}" #processing German data
+        file_name = f"eng_{year}" #processing English data
         input_file = f"filtered_data/{file_name}.json"
         output_file = f"output/prompt2/sentiments_{file_name}.json"
 
