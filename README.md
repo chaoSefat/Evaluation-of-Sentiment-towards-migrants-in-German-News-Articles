@@ -112,10 +112,6 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 - 2020 humanitarian peak (+13pp positive change from 2019)
 - Limited data points constrain trend analysis
 
-### Statistical Significance
-
-Chi-squared tests reveal significant cross-linguistic differences (p < 0.001) for most overlapping years, indicating distinct national media framings of migration discourse.
-
 ### Implications
 
 - German media shows systematic negativization of migration discourse post-2018  
