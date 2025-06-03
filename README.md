@@ -66,12 +66,6 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 
 ## 📊 Results & Analysis
 
-### Dataset Overview
-
-- **German Corpus**: 78,399 migration-relevant sentences (2010–2024)  
-- **English Corpus**: 894 migration-relevant sentences (2010, 2013–2016, 2018–2020, 2023–2024)  
-- **Peak Coverage**: German dataset shows maximum activity during 2015 refugee crisis (15,403 sentences)
-
 ### Key Findings
 
 #### 1. Cross-Linguistic Sentiment Patterns
@@ -85,6 +79,8 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 - Higher positive sentiment baseline (22–37% vs German 14–25%)
 - More volatile sentiment fluctuations due to smaller sample sizes
 - Notable positive spikes during major humanitarian crises (2015, 2020)
+
+![Cross-Linguistic-Sentiment](assets/cross_language_comparison.png)
 
 #### 2. Temporal Evolution & Event Correlation
 
