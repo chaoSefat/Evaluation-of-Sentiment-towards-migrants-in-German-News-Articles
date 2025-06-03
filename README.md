@@ -96,6 +96,9 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 - *German*: Sharp negative escalation (+9.3pp increase 2022–2024)
 - *English*: Converging toward more polarized patterns
 
+![Time-Series](assets/sentiment_time_series.png)
+
+
 #### 3. Volatility & Structural Shifts
 
 **German Sentiment Volatility:**
