@@ -19,6 +19,7 @@ Using the **Leipzig Corpora Collection** (2010–2024), 26 Million ~+ sentences 
 - **Corpus**: Leipzig Wortscathz Corpora Collection 
 - **Languages**: English (`eng_news_20XX`) and German (`deu_news_20XX`)
 - **Time Period**: 2010–2024 (excluding missing years: [2011, 2012, 2021, 2022] for English)
+- **Quantity**: 1 Million sentences per year per language
 - **Data Format**: One txt file per year containing: *Number* >TAB< *Sentence*
 
 ## 🔍 Dataset Filtering Methodology
