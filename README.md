@@ -35,6 +35,8 @@ The raw Leipzig corpora required filtering to isolate migration-relevant content
 1. **Lexical Pre-filter**: Regex pattern matching on stemmed German keywords (`migr*`, `flücht*`, `asyl*`, `einwander*`, etc.)
 2. **Semantic Validation**: Sentence embeddings compared against seed sentence representations using cosine similarity
 
+![image info](assets/semantic filtering.png)
+
 This approach ensures both computational efficiency (keyword pre-filtering reduces semantic processing load) and precision (embeddings capture contextual nuances beyond keyword matching). The same methodology was applied to English corpora with translated seed sentences and corresponding English keyword patterns.
 
 
