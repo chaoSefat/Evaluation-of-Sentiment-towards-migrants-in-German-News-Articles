@@ -39,5 +39,27 @@ The raw Leipzig corpora required filtering to isolate migration-relevant content
 
 This approach ensures both computational efficiency (keyword pre-filtering reduces semantic processing load) and precision (embeddings capture contextual nuances beyond keyword matching). The same methodology was applied to English corpora with translated seed sentences and corresponding English keyword patterns.
 
+## 🤖 Sentiment Classification via LLM Inference
 
+### Model Configuration
+- **LLM**: GPT-4-mini via OpenAI API
+- **Architecture**: Function calling with structured JSON output schema
+- **Batch Processing**: 10 sentences per API call for efficiency and cost optimization
+- **Languages**: Bilingual analysis (German and English datasets)
 
+### Sentiment Classification Framework
+The prompt was engineered to focus on **attitude bias toward migration groups** rather than situational valence:
+
+**Label Definitions**:
+- `positive`: Sympathetic portrayal (deserving help, societal contribution, welcoming)  
+- `negative`: Hostile framing (fear, burden, blame toward migrants/refugees/asylum seekers)
+- `neutral`: Factual mentions without clear attitudinal bias
+- `irrelevant`: Non-migration content (quality control filter)
+
+### Technical Implementation
+- **Structured Output**: JSON schema with enum constraints prevents hallucinated labels
+- **Batch Inference**: Numbered sentence lists maintain alignment between input and predictions
+- **Error Handling**: File existence validation and progressive processing with status tracking
+- **Output Format**: Original sentence metadata preserved with appended `sentiment` field
+
+This approach ensures consistent, reproducible sentiment labeling while maintaining computational efficiency through batched API calls and structured response formatting.
