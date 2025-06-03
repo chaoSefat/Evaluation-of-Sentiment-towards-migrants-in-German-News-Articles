@@ -63,3 +63,63 @@ The prompt was engineered to focus on **attitude bias toward migration groups** 
 - **Output Format**: Original sentence metadata preserved with appended `sentiment` field
 
 This approach ensures consistent, reproducible sentiment labeling while maintaining computational efficiency through batched API calls and structured response formatting.
+
+## 📊 Results & Analysis
+
+### Dataset Overview
+
+- **German Corpus**: 78,399 migration-relevant sentences (2010–2024)  
+- **English Corpus**: 894 migration-relevant sentences (2010, 2013–2016, 2018–2020, 2023–2024)  
+- **Peak Coverage**: German dataset shows maximum activity during 2015 refugee crisis (15,403 sentences)
+
+### Key Findings
+
+#### 1. Cross-Linguistic Sentiment Patterns
+
+**German Media Characteristics:**
+- Consistently neutral-dominant discourse (~55–60% neutral sentiment)
+- Negative sentiment trending upward (17.3% → 26.8%, 2011–2024)
+- Positive sentiment declining (25.0% → 14.4%, 2022–2024)
+
+**English Media Characteristics:**
+- Higher positive sentiment baseline (22–37% vs German 14–25%)
+- More volatile sentiment fluctuations due to smaller sample sizes
+- Notable positive spikes during major humanitarian crises (2015, 2020)
+
+#### 2. Temporal Evolution & Event Correlation
+
+**2015 Refugee Crisis Impact:**
+- *German*: Moderate negative increase (+3.5pp from 2014)
+- *English*: Positive sentiment surge (+10pp), indicating more humanitarian framing
+
+**COVID-19 Period (2020):**
+- *German*: Temporary positive recovery (+7.4pp from 2019)
+- *English*: Peak positive sentiment (35.4%), suggesting solidarity narratives
+
+**Recent Deterioration (2022–2024):**
+- *German*: Sharp negative escalation (+9.3pp increase 2022–2024)
+- *English*: Converging toward more polarized patterns
+
+#### 3. Volatility & Structural Shifts
+
+**German Sentiment Volatility:**
+- Highest volatility during 2022–2023 (+6.3pp negative shift)
+- Structural break around 2018–2019 toward persistently higher negativity
+- Brexit/Trump era corresponding with increased negative framing
+
+**English Sentiment Volatility:**
+- Event-driven spikes rather than sustained trends
+- 2020 humanitarian peak (+13pp positive change from 2019)
+- Limited data points constrain trend analysis
+
+### Statistical Significance
+
+Chi-squared tests reveal significant cross-linguistic differences (p < 0.001) for most overlapping years, indicating distinct national media framings of migration discourse.
+
+### Implications
+
+- German media shows systematic negativization of migration discourse post-2018  
+- English media maintains humanitarian framing during crisis periods  
+- Temporal correlation with major geopolitical events (refugee crisis, COVID-19, Ukraine war)  
+- Linguistic divergence suggests cultural/political differences in migration narratives
+
