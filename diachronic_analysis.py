@@ -556,7 +556,7 @@ class DiachronicSentimentAnalyzer:
 # Usage example:
 if __name__ == "__main__":
     # Initialize analyzer with your data directory
-    analyzer = DiachronicSentimentAnalyzer("output/prompt2")
+    analyzer = DiachronicSentimentAnalyzer("output/relevant")
     
     # Run complete analysis
     results = analyzer.run_complete_analysis()
