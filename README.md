@@ -122,3 +122,7 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 
 ![Volatility](assets/sentiment_volatility.png)
 
+## Conclusion
+This diachronic sentiment analysis reveals significant shifts in how migration has been framed in German and English news media over the past 15 years. The findings point to a gradual negativization of migration discourse in German-language media, particularly since 2018, with a marked rise in hostile sentiment and a corresponding decline in positive portrayals. In contrast, English-language media demonstrated more empathetic framing, especially during global humanitarian crises, though its sentiment trends appear more reactive and volatile.
+
+The dual-language, cross-temporal perspective offered by this study underscores how media sentiment is shaped not only by events but also by cultural and political narratives embedded within linguistic communities.
