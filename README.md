@@ -120,3 +120,5 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 - Temporal correlation with major geopolitical events (refugee crisis, COVID-19, Ukraine war)  
 - Linguistic divergence suggests cultural/political differences in migration narratives
 
+![Volatility](assets/sentiment_volatility.png)
+
