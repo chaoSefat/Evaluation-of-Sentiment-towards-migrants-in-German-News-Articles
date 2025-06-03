@@ -14,5 +14,10 @@ Using the **Leipzig Corpora Collection** (2010–2024), 26 Million ~+ sentences 
 
 ---
 
-## 📁 Project Structure
+## 📚 Dataset
+
+- **Corpus**: Leipzig Corpora Collection
+- **Languages**: English (`eng_news_20XX`) and German (`deu_news_20XX`)
+- **Time Period**: 2010–2024 (excluding missing years: [2011, 2012, 2021, 2022] for English)
+- **Data Format**: One JSON file per year containing:
 
