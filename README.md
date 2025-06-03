@@ -16,8 +16,12 @@ Using the **Leipzig Corpora Collection** (2010–2024), 26 Million ~+ sentences 
 
 ## 📚 Dataset
 
-- **Corpus**: Leipzig Corpora Collection
+- **Corpus**: Leipzig Wortscathz Corpora Collection 
 - **Languages**: English (`eng_news_20XX`) and German (`deu_news_20XX`)
 - **Time Period**: 2010–2024 (excluding missing years: [2011, 2012, 2021, 2022] for English)
-- **Data Format**: One txt file per year containing: *Number* TAB *Sentence*
+- **Data Format**: One txt file per year containing: *Number* >TAB< *Sentence*
+
+## Filtering Dataset
+
+The dataset was first structured into JSON files per year for each languages. The dataset contained sentences of various topics and as a result was filtered to obtain a subset of data which contains sentences related to refugees, asylum seekers and migration issues. 
 
