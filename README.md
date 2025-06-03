@@ -80,6 +80,8 @@ This approach ensures consistent, reproducible sentiment labeling while maintain
 - More volatile sentiment fluctuations due to smaller sample sizes
 - Notable positive spikes during major humanitarian crises (2015, 2020)
 
+  The figure below illustrates the years only for which data is available for both languages in Leipzig corpus:
+
 ![Cross-Linguistic-Sentiment](assets/cross_language_comparison.png)
 
 #### 2. Temporal Evolution & Event Correlation
